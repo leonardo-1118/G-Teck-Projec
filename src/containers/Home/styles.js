@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const Container = styled.main`
 
 padding: 0 7% 0 7%;
-max-width: 2100px;
 
 @media (max-width: 1000px) {
     padding: 0 4% 0 4%;
@@ -78,7 +77,6 @@ p {
         min-width: 50%;
         margin-left: 3%;
         width: 50%;
-
     }
 
     img {
@@ -128,6 +126,7 @@ p {
     img {
         align-items: center;
         margin-top: 30px;
+        margin-bottom: 80px;
     }
 }
 `
@@ -136,14 +135,22 @@ export const MainLink = styled.div`
 
 display: flex;
 justify-content: center;
+margin: 70px 0;
+
 
 a {
     font-family: "Lexend", sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #0a122a;
     font-weight: 700;
     line-height: 30px;
     cursor: pointer; 
     text-align: end;
+}
+
+@media (max-width: 700px) {
+    a {
+        font-size: 18px;
+    }
 }
 `

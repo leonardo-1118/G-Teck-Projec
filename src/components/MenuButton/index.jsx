@@ -1,11 +1,10 @@
 import { Container } from './styles'
-import Menu from '../../components/Menu/index'
-function Products() {
+
+function MenuButton() {
 
     return (
         <Container>
+            
         </Container>
     )
 }
-
-export default Products

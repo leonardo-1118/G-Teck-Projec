@@ -1,32 +1,15 @@
 import { Container } from '../ExButton/styles'
 import { useEffect, useRef } from 'react'
+import { BsList } from "react-icons/bs";
 
-function ExButton() {
+function ExButton({onClick}) {
 
-    const menuRef = useRef(null)
-
-    useEffect(() => {
-        const menu = menuRef.current
-
-        const handleMenuClick = () => {
-            menu.classList.toggle('active')
-        }
-
-        menu.addEventListener('click', handleMenuClick)
-
-        return () => {
-            menu.removeEventListener('click', handleMenuClick)
-        }
-    }, [])
+    
 
     return (
         <Container>
-            <div ref={menuRef} className='menu'>
-                <nav>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </nav>
+            <div className='menu'onClick={onClick}>
+               <BsList />
             </div>
         </Container>
     )

@@ -7,7 +7,6 @@ display: flex;
 width: 100%;
 margin-top: -190px;
 gap: 35px;
-margin-bottom: 50px;
 
 .line {
     width: 40px;
@@ -26,6 +25,42 @@ margin-bottom: 50px;
 img {
     width: 140px;
     margin-bottom: 10px;
+}
+
+.first-image {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_MAE_1.svg');
+    transition: background-image 0.5s;
+}
+
+.first-image:hover {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_MAE_2.svg');
+}
+
+.second-image {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_SEGURANCA_1.svg');
+    transition: background-image 0.5s;
+}
+
+.second-image:hover {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_SEGURANCA_2.svg');
+}
+
+.third-image {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_CUIDADO_1.svg');
+    transition: background-image 0.5s;
+}
+
+.third-image:hover {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_CUIDADO_2.svg');
+}
+
+.forth-image {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_PREMIO_1.svg');
+    transition: background-image 0.5s;
+}
+
+.forth-image:hover {
+    background-image: url('https://accumed.com.br/wp-content/uploads/2023/11/ICON_PREMIO_2.svg');
 }
 
 h3 {
