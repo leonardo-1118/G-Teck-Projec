@@ -26,7 +26,7 @@ function Menu({menuTransition, closeMenu}) {
                         </Link>
 
                         <Link to={'/table'}>
-                            <li isActive={pathname.includes === 'table'}><BiBarChartSquare className='ico-menu' /> Tabelas</li>
+                            <li isActive={pathname.includes === 'table'}><BiBarChartSquare className='ico-menu' /> Categorias</li>
                         </Link>
 
                         <Link to={'/products'}>

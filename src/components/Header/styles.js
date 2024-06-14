@@ -8,8 +8,7 @@ justify-content: space-between;
 align-items: center;
 
 img {
-    width: 35%;
-    max-width: 350px;
+    width: 350px;
     border-radius: 85px;
     margin: 15px 0px 15px 3vw;
 }
@@ -17,6 +16,12 @@ img {
 .exButton {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 1000px) {
+    img {
+        width: 47%;
+    }
 }
 
 @media (max-width: 500px) {

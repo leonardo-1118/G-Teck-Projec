@@ -1,5 +1,4 @@
 import { Container } from '../ExButton/styles'
-import { useEffect, useRef } from 'react'
 import { BsList } from "react-icons/bs";
 
 function ExButton({onClick}) {

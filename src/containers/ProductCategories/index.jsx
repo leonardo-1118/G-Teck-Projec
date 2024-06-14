@@ -1,46 +1,62 @@
 import { Container } from './styles'
+import { Link, useLocation } from 'react-router-dom'
 
-function Table() {
+function ProductCategories() {
+
+    const { pathname } = useLocation()
 
     return (
         <Container>
-            <h3>Selecione a categoria desejada</h3>
+           <h3>Selecione a categoria desejada</h3>
 
             <section>
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/LUVA.webp' alt='Luva-de-procedimento' />
-                    <p>Luvas de procedimento</p>
-                </div>
+                <Link to={'/products/luva'}>
+                    <div isActive={pathname.includes('luva')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/LUVA.webp' alt='Luva-de-procedimento' />
+                        <p>Luvas de procedimento</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/SIMPLES.webp' alt='Estetoscópio' />
-                    <p>Estetoscópios</p>
-                </div>
+                <Link to={'/products/estetoscopio'}>
+                    <div isActive={pathname.includes('estetoscopio')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/SIMPLES.webp' alt='Estetoscópio' />
+                        <p>Estetoscópios</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/01/MAPA_1.webp' alt='M.A.P.A' />
-                    <p>M.A.P.A</p>
-                </div>
+                <Link to={'/products/m.a.p.a'}>
+                    <div isActive={pathname.includes('m.a.p.a')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/01/MAPA_1.webp' alt='M.A.P.A' />
+                        <p>M.A.P.A</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/MASCARA_1.webp' alt='Máscara cirúrgica' />
-                    <p>Máscara cirúrgica</p>
-                </div>
+                <Link to={'/products/mascara'}>
+                    <div isActive={pathname.includes('mascara')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/MASCARA_1.webp' alt='Máscara cirúrgica' />
+                        <p>Máscara cirúrgica</p>
+                    </div>
+                </Link>
+                <Link to={'/products/garrote'}>
+                    <div isActive={pathname.includes('garrote')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/GARROTE_1.webp' alt='Garrote' />
+                        <p>Garrote</p>
+                    </div>
+                </Link>
+                
+                <Link to={'/products/espaçador'}>
+                    <div isActive={pathname.includes('espaçador')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/01/ESPACADOR_PVC_3.webp' alt='Espaçadores' />
+                        <p>Espaçadores</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/GARROTE_1.webp' alt='Garrote' />
-                    <p>Garrote</p>
-                </div>
-
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/01/ESPACADOR_PVC_3.webp' alt='Espaçadores' />
-                    <p>Espaçadores</p>
-                </div>
-
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/KIT_2.webp' alt='Kit acadêmico' />
-                    <p>Kit acadêmico</p>
-                </div>
+                <Link to={'/products/kit-academico'}>
+                    <div isActive={pathname.includes('kit-academico')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/KIT_2.webp' alt='Kit acadêmico' />
+                        <p>Kit acadêmico</p>
+                    </div>
+                </Link>
 
                 <div className="menu-item">
                     <img src='https://accumed.com.br/wp-content/uploads/2023/01/ESFIGMOMANOMETRO_HOSPITALAR_2.webp' alt='Esfigmomanômetros' />
@@ -111,4 +127,4 @@ function Table() {
     )
 }
 
-export default Table
+export default ProductCategories
