@@ -57,71 +57,97 @@ function ProductCategories() {
                         <p>Kit acadêmico</p>
                     </div>
                 </Link>
+                
+                <Link to={'/products/esfigmomanometros'}>
+                    <div isActive={pathname.includes('esfigmomanometros')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/01/ESFIGMOMANOMETRO_HOSPITALAR_2.webp' alt='Esfigmomanômetros' />
+                        <p>Esfigmomanômetros</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/01/ESFIGMOMANOMETRO_HOSPITALAR_2.webp' alt='Esfigmomanômetros' />
-                    <p>Esfigmomanômetros</p>
-                </div>
+                <Link to={'/products/monitor-pre-natal'}>
+                    <div isActive={pathname.includes('monitor-pre-natal')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/BABY_DOPPLER_1.webp' alt='Monitor pré-natal' />
+                        <p>Monitor pré-natal</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/BABY_DOPPLER_1.webp' alt='Monitor pré-natal' />
-                    <p>Monitor pré-natal</p>
-                </div>
+                <Link to={'/products/oximetros'}>
+                    <div isActive={pathname.includes('oximetros')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/OLED_1.webp' alt='Oximetros' />
+                        <p>Oximetros</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/OLED_1.webp' alt='Oximetros' />
-                    <p>Oximetros</p>
-                </div>
+                <Link to={'/products/umidificadores'}>
+                    <div isActive={pathname.includes('umidificadores')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/DUAL.webp' alt='Umidificadores de ar' />
+                        <p>Umidificadores de ar</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/DUAL.webp' alt='Umidificadores de ar' />
-                    <p>Umidificadores de ar</p>
-                </div>
+                <Link to={'/products/balanças'}>
+                    <div isActive={pathname.includes('balanças')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/01/GLASS_11_1.webp' alt='Balanças' />
+                        <p>Balanças</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/01/GLASS_11_1.webp' alt='Balanças' />
-                    <p>Balanças</p>
-                </div>
+                <Link to={'/products/tens'}>
+                    <div isActive={pathname.includes('tens')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/TENS_4.webp' alt='Tens' />
+                        <p>Tens</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/TENS_4.webp' alt='Tens' />
-                    <p>Tens</p>
-                </div>
+                <Link to={'/products/bomba-de-leite-materno'}>
+                    <div isActive={pathname.includes('bomba-de-leite-materno')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/SMART_LCD_2.webp' alt='Bombas de leite materno' />
+                        <p>Bombas de leite materno</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/SMART_LCD_2.webp' alt='Bombas de leite materno' />
-                    <p>Bombas de leite materno</p>
-                </div>
+                <Link to={'/products/aparelhos-de-pressao'}>
+                    <div isActive={pathname.includes('aparelhos-de-pressao')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/11/BPGP480BT_2.webp' alt='Aparelhos de pressão' />
+                        <p>Aparelhos de pressão</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/11/BPGP480BT_2.webp' alt='Aparelhos de pressão' />
-                    <p>Aparelhos de pressão</p>
-                </div>
+                <Link to={'/products/autoteste-para-covid-19'}>
+                    <div isActive={pathname.includes('autoteste-para-covid-19')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/AUTOTESTE_2.webp' alt='Autoteste para Covid-19' />
+                        <p>Autoteste para Covid-19</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/AUTOTESTE_2.webp' alt='Autoteste para Covid-19' />
-                    <p>Autoteste para Covid-19</p>
-                </div>
+                <Link to={'/products/termometros'}>
+                    <div isActive={pathname.includes('termometros')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/ICOLOR_1.webp' alt='Termômetros' />
+                        <p>Termômetros</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/GO_3.webp' alt='Termômetros' />
-                    <p>Termômetros</p>
-                </div>
+                <Link to={'/products/linha-diabetes'}>
+                    <div className="menu-item">
+                        <img  src='https://accumed.com.br/wp-content/uploads/2023/11/LITE_SMART_1.webp' alt='Linha diabetes'/>
+                        <p>Linha diabetes</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img  src='https://accumed.com.br/wp-content/uploads/2023/11/LITE_SMART_1.webp' alt='Linha diabetes'/>
-                    <p>Linha diabetes</p>
-                </div>
+                <Link to={'/products/massageadores'}>
+                    <div isActive={pathname.includes('massageadores')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/12/IR_1.webp' alt='Massageadores' />
+                        <p>Massageadores</p>
+                    </div>
+                </Link>
 
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/12/IR_1.webp' alt='Massageadores' />
-                    <p>Massageadores</p>
-                </div>
-
-                <div className="menu-item">
-                    <img src='https://accumed.com.br/wp-content/uploads/2023/11/NEBMESH2_4.webp' alt='Inaladores e nebulizadores' />
-                    <p>Inaladores e nebulizadores</p>
-                </div>
+                <Link to={'/products/inaladores-e-nebulizadores'}>
+                    <div isActive={pathname.includes('inaladores-e-nebulizadores')} className="menu-item">
+                        <img src='https://accumed.com.br/wp-content/uploads/2023/11/NEBMESH2_4.webp' alt='Inaladores e nebulizadores' />
+                        <p>Inaladores e nebulizadores</p>
+                    </div>
+                </Link>
             </section>
         </Container>
     )

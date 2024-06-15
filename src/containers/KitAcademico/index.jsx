@@ -4,7 +4,7 @@ function KitAcademico({showHeading = true}) {
 
     return(
         <Container>
-            {showHeading && <h3>Kit Academico</h3>}
+            {showHeading && <h3>Kit Acadêmico</h3>}
             
             <section>
                 <div className='menu-item'>
@@ -15,7 +15,5 @@ function KitAcademico({showHeading = true}) {
         </Container>
     )
 }
-
-
 
 export default KitAcademico

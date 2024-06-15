@@ -31,6 +31,4 @@ function Estetoscopio({showHeading = true}) {
     )
 }
 
-
-
 export default Estetoscopio

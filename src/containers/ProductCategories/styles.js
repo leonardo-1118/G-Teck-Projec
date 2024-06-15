@@ -26,7 +26,7 @@ section {
 p {
     font-size: 20px;
     font-weight: 700;
-    max-width: 230px;
+    max-width: 200px;
     text-align: center;
 }
 
@@ -57,14 +57,12 @@ span {
 }
 
 @media(max-width: 1100px) {
-
     h3 {
         font-size: 45px;
     }
 }
 
 @media (max-width: 700px) {
-
     h3 {
         font-size: 35px;
     }

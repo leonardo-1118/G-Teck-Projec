@@ -21,6 +21,4 @@ function Garrote({showHeading = true}) {
     )
 }
 
-
-
 export default Garrote

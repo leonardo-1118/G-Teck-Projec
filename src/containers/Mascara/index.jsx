@@ -16,6 +16,4 @@ function Mascara({showHeading = true}) {
     )
 }
 
-
-
 export default Mascara
